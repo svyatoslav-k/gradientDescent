@@ -16,6 +16,7 @@ y_values_for_line = [q0 + q1 * x_values_for_line[0], q0 + q1 * x_values_for_line
 
 plt.plot(input_x, input_y, 'go')
 plt.plot(x_values_for_line, y_values_for_line)
+# blue point - predicted value
 plt.plot(predict_for_x, predict_y, 'bo')
 plt.axis([0, 10, 0, 45])
 plt.show()
